@@ -1,0 +1,40 @@
+{
+  "name": "socialapis/youtubedownloader",
+  "description": "A small project for fetching youtube vidoes with their private api.",
+  "keywords": [
+    "Youtube",
+    "Private",
+    "API",
+    "PHP"
+  ],
+  "authors": [
+    {
+      "name": "socialAPIS",
+      "email": "noemail@example.com",
+      "role": "Founder"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/Request", "src/Response"],
+    "psr-4": {
+      "YoutubeDownloader\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YoutubeDownloader\\Tests\\": "tests/"
+    }
+  },
+  "license": "RPL-1.5",
+  "require": {
+    "php": ">=7.0",
+    "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
+    "guzzlehttp/guzzle": "^6.2",
+    "google/protobuf": "^3.11"
+  },
+  "scripts": {
+    "test": [
+      "phpunit tests"
+    ]
+  }
+}
