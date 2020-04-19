@@ -25,7 +25,7 @@ they need to update, and yeah, youtube is changing it on a regular monthly bases
 
 Pure PHP-based youtube downloaders that work, don't exist, except of this one.
 
-This is the first Pure PHP-based youtube downloader that will work.
+This is the first Pure PHP-based youtube downloader that works.
 
 This script does not depend on anything other than cURL.
 cURL is used from GuzzleHttp. 
