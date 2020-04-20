@@ -28,7 +28,6 @@
   "license": "RPL-1.5",
   "require": {
     "php": ">=7.0",
-    "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
     "guzzlehttp/guzzle": "^6.2",
     "google/protobuf": "^3.11"
   },
