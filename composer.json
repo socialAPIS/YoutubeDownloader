@@ -29,7 +29,7 @@
   "require": {
     "php": ">=7.0",
     "guzzlehttp/guzzle": "^6.2",
-    "google/protobuf": "^3.11"
+    "google/protobuf": "3.11"
   },
   "scripts": {
     "test": [
